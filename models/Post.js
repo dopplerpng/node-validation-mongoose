@@ -1,5 +1,5 @@
-const {Schema} = require("mongoose");
-const {schema, model} = require('mongoose')
+const {Schema, model} = require("mongoose");
+
 
 const PostModel = new Schema({
   post: {type: String, unique:false, required:true},
